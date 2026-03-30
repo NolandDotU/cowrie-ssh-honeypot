@@ -68,9 +68,3 @@ I simulated attacks from Kali Linux using:
 - Manual SSH login with wrong passwords
 - Brute-force with **Hydra** (`rockyou.txt`)
 - Post-exploitation commands (`whoami`, `ls`, `cat /etc/passwd`, `wget`, `uname -a`, etc.)
-
-**Key Findings** (replace with your actual results):
-- Most common usernames attempted: root, admin, ubuntu, user
-- Frequent commands: reconnaissance (`uname`, `id`, `cat /proc/cpuinfo`) and download attempts (`wget`, `curl`)
-- Downloaded files stored in `var/lib/cowrie/downloads/`
-- Full session replays available in `var/lib/cowrie/tty/`
