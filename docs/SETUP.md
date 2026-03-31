@@ -121,5 +121,5 @@ you can check it on live log using:
 ```bash
 tail -f ~/cowrie/var/log/cowrie/cowrie.logs
 ```
-or you can use capture file using .py [AnalyzeFile](~/cowrie-ssh-honeypot/scripts/analyze_logs.py)
+or you can use capture file using .py [AnalyzeFile](../scripts/analyze_logs.py)
 
