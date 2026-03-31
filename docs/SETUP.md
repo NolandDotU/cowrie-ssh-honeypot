@@ -117,4 +117,9 @@ sudo journalctl -u cowrie -f
 ```bash
 ssh -p 2222 root@<YOUR-COWRIE-IP>
 ```
+you can check it on live log using:
+```bash
+tail -f ~/cowrie/var/log/cowrie/cowrie.logs
+```
+or you can use capture file using .py [AnalyzeFile](~/cowrie-ssh-honeypot/scripts/analyze_logs.py)
 
